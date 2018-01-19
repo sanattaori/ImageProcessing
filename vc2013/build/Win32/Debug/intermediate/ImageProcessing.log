@@ -1,0 +1,28 @@
+﻿  ImageProcessingApp.cpp
+c:\cinder\include\cinder\filesystem.h(40): warning C4996: 'std::tr2': warning STL4018: The non-Standard std::tr2::sys namespace is deprecated and will be REMOVED. It is superseded by std::experimental::filesystem. You can define _SILENCE_TR2_SYS_NAMESPACE_DEPRECATION_WARNING to acknowledge that you have received this warning.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\filesystem(3193): note: see declaration of 'std::tr2'
+  Unknown compiler version - please run the configure tests and report the results
+e:\sanat\cinder\imageprocessing\src\imageprocessingapp.cpp(160): error C2665: 'cinder::gl::draw': none of the 10 overloads could convert all the argument types
+  c:\cinder\include\cinder\gl\draw.h(59): note: could be 'void cinder::gl::draw(const cinder::Shape2d &,float)'
+  c:\cinder\include\cinder\gl\draw.h(57): note: or       'void cinder::gl::draw(const cinder::Path2d &,float)'
+  c:\cinder\include\cinder\gl\draw.h(55): note: or       'void cinder::gl::draw(const std::vector<glm::vec3,std::allocator<_Ty>> &,bool)'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  c:\cinder\include\cinder\gl\draw.h(52): note: or       'void cinder::gl::draw(const cinder::gl::Texture2dRef &,const glm::vec2 &)'
+  c:\cinder\include\cinder\gl\draw.h(49): note: or       'void cinder::gl::draw(const cinder::gl::Texture2dRef &,const cinder::Rectf &)'
+  c:\cinder\include\cinder\gl\draw.h(47): note: or       'void cinder::gl::draw(const cinder::gl::VboMeshRef &,GLint,GLsizei)'
+  e:\sanat\cinder\imageprocessing\src\imageprocessingapp.cpp(160): note: while trying to match the argument list '(cinder::Surface32f, cinder::Area)'
+e:\sanat\cinder\imageprocessing\src\imageprocessingapp.cpp(165): error C2665: 'cinder::gl::draw': none of the 10 overloads could convert all the argument types
+  c:\cinder\include\cinder\gl\draw.h(59): note: could be 'void cinder::gl::draw(const cinder::Shape2d &,float)'
+  c:\cinder\include\cinder\gl\draw.h(57): note: or       'void cinder::gl::draw(const cinder::Path2d &,float)'
+  c:\cinder\include\cinder\gl\draw.h(55): note: or       'void cinder::gl::draw(const std::vector<glm::vec3,std::allocator<_Ty>> &,bool)'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  c:\cinder\include\cinder\gl\draw.h(52): note: or       'void cinder::gl::draw(const cinder::gl::Texture2dRef &,const glm::vec2 &)'
+  c:\cinder\include\cinder\gl\draw.h(49): note: or       'void cinder::gl::draw(const cinder::gl::Texture2dRef &,const cinder::Rectf &)'
+  c:\cinder\include\cinder\gl\draw.h(47): note: or       'void cinder::gl::draw(const cinder::gl::VboMeshRef &,GLint,GLsizei)'
+  e:\sanat\cinder\imageprocessing\src\imageprocessingapp.cpp(165): note: while trying to match the argument list '(cinder::Surface32f, cinder::Area)'
